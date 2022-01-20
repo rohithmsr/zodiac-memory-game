@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 18px Verdana;
+  color: #fff;
+  background: #ccc;
+}
+
+#gameboard {
+  margin: 0px auto;
+  width: 640px;
+}
+
+#gameboard-buttons {
+  text-align: center;
+  margin: 20px;
+  display: block;
+}
+
+#gameboard-buttons .gameboard-buttons--button {
+  text-transform: uppercase;
+  background: #a020f0;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#gameboard-buttons .gameboard-buttons--button:hover {
+  background: #999;
+}
+
+#gameboard-cards {
+  z-index: 1;
+  margin: 10px 0 0;
+}
+
+#gameboard-cards div {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+  border: 4px solid #a020f0;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  background: #b1b1b1;
+  z-index: 2;
+}
+
+#gameboard-cards div img {
+  display: none;
+  border-radius: 10px;
+  z-index: 3;
+}
+
+#success {
+  background: #f4f4f4;
+  color: #a020f0;
+}
+
+#clicks {
+  color: #a020f0;
+}
